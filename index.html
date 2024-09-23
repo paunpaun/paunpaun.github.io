@@ -1,36 +1,69 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-         <link href="css/styles.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;100&display=swap" rel="stylesheet">
+        <link rel="icon" href="/assets/gif/asuka-ball.gif" type="image/gif">
+        <link rel="stylesheet" href="style/style.css">
+        <script src="script/script.js"></script>
     </head>
+
     <body>
-        <section class="page-section clearfix">
-            <div class="container">              
-                <div class="top-section">
-                    <video autoplay loop muted plays-inline class="background-clip">
-                        <source src="assets/panorma.mp4" type="video/mp4">
-                    </video>
-                    <div class="left-column">
-                        <p>
-                            <img src="assets/pictures/pfp.png" width="220px" height="220px" class="logo" alt="logo" />
-                        </p>
-                    </div>
-                    <div class="right-column">
-                        <h2 class="section-heading mb-4">
-                            <span class="section-heading-upper">paun</span>
-                        </h2>
-                        <p class="text">The best programmer in Trieste.</p>
-                    </div>
+        <div id="page-frame">
+            <div id="header">
+                <div id="header-left">
+                    <p style="margin-left: 1em;">website</p>
+                    <h1 style="margin-left: 2em;">Paunpaunpaun</h1>
                 </div>
-                <div class="bottom-section">
-                    <div class="icon-container">
-                        <a href="https://github.com/paunpaun" target="_blank"><img src="assets/pictures/github4.webp" alt="Github"></a>
-                        <a href="https://discord.com/users/1008468412059619348" target="_blank"><img src="assets/pictures/discord.png" alt="Discord"></a>
-                        <a href="https://steamcommunity.com/profiles/76561199511013084/" target="_blank"><img src="assets/pictures/steam2.webp" alt="Steam"></a>
-                    </div>
-                </div> 
+
+                <div id="header-middle">
+                    
+                </div>
+                <div id="header-right">
+
+                </div>
                 
             </div>
-        </section>
+            
+            <div id="middle">
+                <div id="main-body">
+                    <div id="sections">
+                        <button id="home-btn" class="active" onclick="switch_section('home')">/home</button>
+                        <button id="about-btn" onclick="switch_section('about')">/about</button>
+                        <button id="projects-btn" onclick="switch_section('projects')">/projects</button>
+                        <button id="contacts-btn" onclick="switch_section('contacts')">/contacts</button>
+                    </div>
+                    <div id="main-content">
+                        <p>home<p>
+                    </div>
+                </div>
+                
+
+                <div id="sidebar">
+                    
+                    <p>mood</p>
+                    <p>\/</p>
+                    <p>\/</p>
+                    <p>\/</p>
+                    <p>\/</p>
+                    <p>\/</p>
+                    <img src="/assets/gif/eva01.gif" width="170">
+               </div>
+            </div>
+            
+            <div id="footer">
+                footer
+            </div>
+
+        </div>
+
+        <div id="taskbar">
+            <img id="left" src="/assets/pictures/w7_taskbar-left.png" alt="">
+            <img id="middle" src="/assets/pictures/w7_taskbar-middle.png" alt="">
+            <img id="right" src="/assets/pictures/w7_taskbar-right.png" alt="">
+        </div>
+
     </body>
+
+    
+
 </html>
