@@ -10,6 +10,10 @@ function switch_section(section) {
 
     if (section === 'home') {
         main_content.innerHTML = `
+            <div id="first-line">
+                <img src="/assets/pictures/pfp.png" alt="" style="margin-right: 1em;">
+                Paun
+            </div>
             <p>home<p>
         `;
     } else if (section === 'about') {
