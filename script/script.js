@@ -9,7 +9,7 @@ function switch_section(section) {
     if (section === 'home') {
         main_content.innerHTML = `
             <div id="first-line">
-                <img src="/assets/pictures/pfp.png" style="width: 10em; margin: 1em;">
+                <img src="/assets/pictures/cvpfp.jpg" style="width: 10em; margin: 1em;">
                 Paun
             </div>
             <p>paunpaunpaunpaunpaunpaunpaunpaunpaunpaunpaunpaun<p>
