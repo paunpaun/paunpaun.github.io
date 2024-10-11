@@ -21,7 +21,7 @@ function switch_section(section) {
         main_content.innerHTML = `
             <h2>About Me</h2>
             <div id="first-line">
-                <img src="/assets/pictures/cvpfp-circle.png" style="width: 10em; margin: 1em;">
+                <img src="/assets/pictures/pfp.png" style="width: 10em; margin: 1em;">
                 Paun
             </div>
             <p>Sono Paun Stefan, studente al volta e studio informatica.<p>
