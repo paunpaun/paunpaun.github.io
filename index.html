@@ -11,18 +11,24 @@
     <body>
         <div id="page-frame">
             <div id="header">
-                <h1 style="margin-left: 2em;">Paun</h1>
+                <div id="header-left">
+                    WEBSITE
+                </div>
+                <div id="header-right">
+                    
+                </div>
             </div>
+                
             <div id="middle">
                 <div id="main-body">
-                    <div id="sections">
+                    <!-- <div id="sections">
                         <button id="home-btn" class="active" onclick="switch_section('home')">/home</button>
                         <button id="about-btn" onclick="switch_section('about')">/about</button>
                         <button id="projects-btn" onclick="switch_section('projects')">/projects</button>
                         <button id="contacts-btn" onclick="switch_section('contacts')">/contacts</button>
-                    </div>
+                    </div> -->
                     <div id="main-content">
-                        <div style="display: flex; flex-flow: row wrap; justify-content: center; align-items: end; height: 100%;">
+                        <div style="display: flex; flex-flow: row wrap; justify-content: center; align-items: start; height: 100%;">
                         <div style="background-color: #C0C0C0; padding: 3em; margin: 1em; color: #0D0D0D;"
                         onclick="switch_section('about')">ABOUT</div>
                         <div style="background-color: #C0C0C0; padding: 3em; margin: 1em; color: #0D0D0D;"
@@ -32,17 +38,25 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div id="sidebar">
-                    <p>\/</p>
-                    <p>\/</p>
-                    <p>\/</p>
-                    <p>\/</p>
-                    <p>\/</p>
-                    <p>\/</p>
-               </div> -->
+                <div id="sidebar">
+                    <div id="sidebar-content">
+                        <p><img src="assets/pictures/star-thirds.png" width="30em" height=auto><red>┓</red></p>
+                        
+                        <p>
+                           <span class="offset"><red>┣</red>/home<br></span> 
+                           <span class="offset"><red>┋</red></span><red>  ┗</red><button id="home-btn" onclick="switch_section('home')">home</button> <br>
+                           <span class="offset"><red>┣</red>/me<br></span> 
+                           <span class="offset"><red>┋</red>  <red>┣</red><button id="about-btn" onclick="switch_section('about')">about</button><br></span> 
+                           <span class="offset"><red>┋</red>  <red>┣</red><button id="projects-btn" onclick="switch_section('projects')">projects</button><br></span> 
+                           <span class="offset"><red>┋</red>  <red>┗</red><button id="contacts-btn" onclick="switch_section('contacts')" class="last">contacts</button><br></span> 
+                           <span class="offset"><red>┋</red><br></span> 
+                           <span class="offset"><red>┗</red>/other<br></span>  
+                           <span class="offset-last-line"><span> </span><red>┗</red><a href="https://www.voltatrieste.edu.it" target="_blank" style="color: #C0C0C0;">school</a><br></span>  
+                        </p>    
+                   </div>
+                </div>
+                
             </div>
-            <!-- <div id="footer">
-            </div> -->
         </div>
     </body>
 

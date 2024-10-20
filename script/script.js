@@ -8,7 +8,7 @@ function switch_section(section) {
 
     if (section === 'home') {
         main_content.innerHTML = `
-            <div style="display: flex; flex-flow: row wrap; justify-content: center; align-items: end; height: 100%;">
+            <div style="display: flex; flex-flow: row wrap; justify-content: center; align-items: start; height: 100%;">
             <div style="background-color: #C0C0C0; padding: 3em; margin: 1em; color: #0D0D0D;"
             onclick="switch_section('about')">ABOUT</div>
             <div style="background-color: #C0C0C0; padding: 3em; margin: 1em; color: #0D0D0D;"
@@ -21,7 +21,7 @@ function switch_section(section) {
         main_content.innerHTML = `
             <h2>About Me</h2>
             <div id="first-line">
-                <img src="/assets/pictures/pfp.png" style="width: 10em; margin: 1em;">
+                <img src="assets/pictures/pfp.jpg" style="width: 10em; margin: 1em;">
                 Paun
             </div>
             <p>Sono Paun Stefan, studente al volta e studio informatica.<p>
@@ -47,11 +47,11 @@ function switch_section(section) {
         main_content.innerHTML = `
             <h2>Contact Me</h2>
             <div>
-                <img src="/assets/pictures/github4.webp" style="width: 5em; margin: 1em">
+                <img src="assets/pictures/github4.webp" style="width: 5em; margin: 1em">
                 <a href="https://github.com/paunpaun" target="_blank" >
                 GitHub
                 </a>
-                <img src="/assets/pictures/instagram.png" style="width: 5em; margin: 1em">
+                <img src="assets/pictures/instagram.png" style="width: 5em; margin: 1em">
                 <a href="https://instagram.com/spraunz/" target="_blank" >
                 Instagram
                 </a>
@@ -64,4 +64,5 @@ function switch_section(section) {
 
         `;
     }
+    
 }
